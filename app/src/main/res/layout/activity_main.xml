@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="io.payworks.ares.android.MainActivity">
+    <ImageView
+        android:id="@+id/pa_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/pa_logo"/>
+
+    <TextView
+        android:id="@+id/pa_info_text"
+        android:layout_marginTop="24dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pa_logo"
+        android:gravity="center"
+        android:text="@string/pa_hello_world"/>
+
+    <Button
+        android:id="@+id/pa_webshop_button"
+        android:layout_marginTop="24dp"
+        android:text="@string/pa_webshop"
+        android:layout_below="@id/pa_info_text"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/pa_payworks_accent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pa_payworks_blue</item>
+        <item name="colorPrimaryDark">@color/pa_payworks_blue_dark</item>
+        <item name="colorAccent">@color/pa_payworks_accent</item>
+    </style>
+
+</resources>
